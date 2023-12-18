@@ -1,0 +1,17 @@
+{
+  "name": "mongodb-db-clonator",
+  "module": "index.ts",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  }
+}
